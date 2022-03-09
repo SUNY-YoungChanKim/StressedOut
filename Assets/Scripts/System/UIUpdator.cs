@@ -70,7 +70,11 @@ public class UIUpdator : MonoBehaviour
     // Update is called once per frame
     private void Update() 
     {
-    
+        if(ItemPopuping==false&&ItemPopUpList.Count>0)
+        {
+            StartCoroutine("Popup");
+        }
+
         Timer.text=SecToTime(SequenceManager.Instance.GetLeftTime());
         HPText.text=(int)CharacterRef.GetCurrentHealth()+"/"+(int)CharacterRef.GetMaxHelath();
         HPProgressBar.fillAmount= Mathf.SmoothStep(HPProgressBar.fillAmount,
@@ -88,13 +92,6 @@ public class UIUpdator : MonoBehaviour
 
         TScore.GetComponent<Text>().text="Score:"+Score.Instance.GetScore();
 
-    }
-    private void FixedUpdate() 
-    {
-        if(ItemPopuping==false&&ItemPopUpList.Count>0)
-        {
-            StartCoroutine("Popup");
-        }    
     }
 
     public void PopUpListIn(ItemInfo Info)

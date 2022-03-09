@@ -70,12 +70,11 @@ public class SequenceManager : MonoBehaviour
     void Awake()
     {
         instance=this;
-        Reset_Timer();
 
     }
     void Start()
     {
-
+        Reset_Timer();
         MonsterManager=GameObject.Find("MonsterManager").transform;
         InvokeRepeating("CreateBossSeq",BossCreateInterval,BossCreateInterval);
         InvokeRepeating("IncreaseScoreSecond",1.0f,1.0f);

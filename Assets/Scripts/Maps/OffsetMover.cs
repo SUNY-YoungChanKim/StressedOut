@@ -12,7 +12,6 @@ public class OffsetMover : MonoBehaviour
     {
         this.GetComponent<MeshRenderer>().GetMaterials(MList);
 
-        Debug.Log(MList.Count);
     }
 
     // Update is called once per frame

@@ -63,9 +63,6 @@ public class Weapon : MonoBehaviour
             break;
         }
 
-
-
-
         for(int i=0;i<CharacterInfo.Instance.GetProjectileNum();i++)
         {
 
@@ -100,7 +97,6 @@ public class Weapon : MonoBehaviour
             TempEffect.SetActive(false);
             TempBullet.GetComponent<Bullet>().SetRef(HitEffectQueue,BulletQueue);
         }
-
         if(this.GetComponent<AudioSource>()!=null)this.GetComponent<AudioSource>().Play();
     }
 

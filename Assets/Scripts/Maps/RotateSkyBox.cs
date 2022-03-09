@@ -8,6 +8,7 @@ public class RotateSkyBox : MonoBehaviour
 
 	void Start ()
     {
+        Time.timeScale=1.0f;
         degree = 0;
     }
 	
