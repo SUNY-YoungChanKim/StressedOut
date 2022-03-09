@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - FxTemporaire
+  - Bullet
+  - Monster
+  - Obstacles
+  - DyingMonster
+  - Weapon
+  - MonsterBullet
+  - Chest
+  - Tile
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Monster
+  - Water
+  - UI
+  - Bullet
+  - Player
+  - Obstacles
+  - DyingMonster
+  - MonsterBullet
+  - Chest
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

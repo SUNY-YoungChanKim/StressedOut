@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 1528436638
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: monsters
+      Dependencies: {}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "353910750621",
+    "firebase_url": "https://stressedout-1e4ac-default-rtdb.firebaseio.com",
+    "project_id": "stressedout-1e4ac",
+    "storage_bucket": "stressedout-1e4ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353910750621:android:7c094fe93a77c1b7110374",
+        "android_client_info": {
+          "package_name": "com.YoungChanKim.StressedOut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353910750621-ngehhf8rtqjok0gpl6dgk7npilg4tbqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQGppNtYK1q9ENnlKS1VNgR-hm4VjXT-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353910750621-ngehhf8rtqjok0gpl6dgk7npilg4tbqf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
